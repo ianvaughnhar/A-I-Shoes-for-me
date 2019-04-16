@@ -41,6 +41,14 @@
       </li>
       <li class="nav-item">
         <a class="nav-link" href="#">Mens</a>
+            <div " id="navigation">
+           
+           <ul>
+             
+               <li><a style="color:black"  href="Men's.aspx"> Mens Page</a></li>
+               
+           </ul>
+       </div>
       </li>
         <li class="nav-item">
         <a class="nav-link" href="#">Brands</a>
@@ -62,6 +70,8 @@
       <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
     </form>
   </div>
+
+        <div id="navigation"
 </nav>
 </body>
 </html>
