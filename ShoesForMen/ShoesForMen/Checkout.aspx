@@ -4,7 +4,10 @@
 
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head runat="server">
-    <title></title>
+    <title>Checkout</title>
+    <h1 style="font=>Checkout</h1>
+    <h2>My Shopping Bag</h2>
+
 </head>
 <body>
     <form id="form1" runat="server">
