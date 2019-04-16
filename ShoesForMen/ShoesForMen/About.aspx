@@ -9,9 +9,8 @@
 
       <div>  
         <h2>About Us </h2>
-
           <br /> 
-    </div>
+     </div>
          </header>
 
        <div " id="navigation">
