@@ -22,21 +22,21 @@ namespace ShoesForMen {
         protected global::System.Web.UI.WebControls.Image Image1;
         
         /// <summary>
-        /// Philanthropybtn control.
+        /// GirlsandBoysLogog control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Button Philanthropybtn;
+        protected global::System.Web.UI.WebControls.Image GirlsandBoysLogog;
         
         /// <summary>
-        /// Familybtn control.
+        /// Image2 control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Button Familybtn;
+        protected global::System.Web.UI.WebControls.Image Image2;
     }
 }

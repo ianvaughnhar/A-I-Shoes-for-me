@@ -120,8 +120,10 @@
     <Content Include="Content\Site.css" />
     <Content Include="Default.aspx" />
     <Content Include="favicon.ico" />
+    <Content Include="GandB.png" />
     <Content Include="Global.asax" />
     <Content Include="Men%27s.aspx" />
+    <Content Include="moderb.jfif" />
     <Content Include="Photos.aspx" />
     <Content Include="Scripts\bootstrap.bundle.js" />
     <Content Include="Scripts\bootstrap.bundle.min.js" />
