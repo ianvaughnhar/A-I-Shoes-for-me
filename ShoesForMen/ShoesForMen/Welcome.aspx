@@ -3,7 +3,7 @@
 <!DOCTYPE html>
 
 <html xmlns="http://www.w3.org/1999/xhtml">
-<head runat="server">
+<head style="background-color:lightgrey" runat="server">
 
    <title>Time Entry</title>
 
@@ -18,7 +18,7 @@
    <link rel="stylesheet" href="bootstrap-theme.min.css"/>
 
 </head>
-<body style="background-color:lightcyan">
+<body style="background-color:lightcoral">
     <form id="form1" runat="server">
         <div class="jumbotron">
   <h1 class="display-4" style="font-family:'Times New Roman'" >Welcome to A/I Shoes For Men!</h1>
@@ -37,41 +37,28 @@
   <div class="collapse navbar-collapse" id="navbarSupportedContent">
     <ul class="navbar-nav mr-auto">
       <li class="nav-item active">
-        <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+        <a class="nav-link" href="Welcome.aspx">Home <span class="sr-only">(current)</span></a>
       </li>
       <li class="nav-item">
-        <a class="nav-link" href="#">Mens</a>
-            <div " id="navigation">
-           
-           <ul>
-             
-               <li><a style="color:black"  href="Men's.aspx"> Mens Page</a></li>
-               
-           </ul>
-       </div>
+        <a class="nav-link" href="Mens.aspx">Mens</a>
       </li>
         <li class="nav-item">
-        <a class="nav-link" href="#">Brands</a>
+        <a class="nav-link" href="About.aspx">About Us</a>
       </li>
         <li class="nav-item">
-        <a class="nav-link" href="#">Checkout</a>
-      </li>
-      <li class="nav-item dropdown">
-        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-         Clearance
-        </a>
+        <a class="nav-link" href="Checkout.aspx">Checkout</a>
       </li>
       <li class="nav-item">
         <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Sign in</a>
       </li>
     </ul>
-    <form class="form-inline my-2 my-lg-0">
+    
+      
+      <form class="form-inline my-2 my-lg-0">
       <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
       <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
     </form>
   </div>
-
-        <div id="navigation"
 </nav>
 </body>
 </html>
