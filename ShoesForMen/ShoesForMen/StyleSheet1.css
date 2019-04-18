@@ -16,3 +16,12 @@
     border: 5px solid;
     
 }
+
+.photogallery{
+    height:10%;
+    width: 10%;
+    border-bottom-color:black;
+    border:solid;
+    align-items:center;
+
+}

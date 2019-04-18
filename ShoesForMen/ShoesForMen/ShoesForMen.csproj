@@ -107,7 +107,7 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-    <Content Include="A _ I Shoes For Men Logo.png" />
+    <Content Include="Logo.png" />
     <Content Include="About.aspx" />
     <Content Include="Checkout.aspx" />
     <Content Include="Contact.aspx" />
@@ -149,6 +149,7 @@
     <Content Include="Content\bootstrap-grid.css.map" />
     <Content Include="StyleSheet1.css" />
     <Content Include="Welcome.aspx" />
+    <Content Include="yeezblk.jpg" />
     <None Include="Scripts\jquery-3.3.1.intellisense.js" />
     <Content Include="Scripts\jquery-3.3.1.js" />
     <Content Include="Scripts\jquery-3.3.1.min.js" />

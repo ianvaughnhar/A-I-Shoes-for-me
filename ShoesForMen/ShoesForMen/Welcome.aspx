@@ -1,64 +1,48 @@
-﻿<%@ Page Language="C#" AutoEventWireup="true" CodeBehind="Welcome.aspx.cs" Inherits="ShoesForMen.Welcome" %>
+﻿<%@ Page Title="Welcome" Language="C#" AutoEventWireup="true" CodeBehind="Welcome.aspx.cs" Inherits="ShoesForMen.Welcome" MasterPageFile="~/Site.Master" %>
+  
+<asp:Content ID="BodyContent" ContentPlaceHolderID="MainContent" runat="server" >
+    <header>
 
-<!DOCTYPE html>
+   
+    <link type="text/css" rel="stylesheet" href="StyleSheet1.css" />
+    <asp:image ImageAlign="Middle" CssClass="mainpic" ID="Image1" runat="server" src="Logo.png" Height="10%" Width="10%" />
+  
+      <div>  
+        <h2>
+         Welcome to A/I Shoes For Men!
+        </h2>
+          <br /> 
+      </div>
+         </header>
 
-<html xmlns="http://www.w3.org/1999/xhtml">
-<head style="background-color:lightgrey" runat="server">
-
-   <title>Time Entry</title>
-
-   <meta charset="utf-8"/>
-
-   <meta name="viewport" content="width=device-width, initial-scale=1"/>
-
-   <link rel="stylesheet" href="bootstrap.min.css"/>
-
-   <script src="bootstrap.min.js"></script>
-
-   <link rel="stylesheet" href="bootstrap-theme.min.css"/>
-
-</head>
-<body style="background-color:lightcoral">
-    <form id="form1" runat="server">
-        <div class="jumbotron">
-  <h1 class="display-4" style="font-family:'Times New Roman'" >Welcome to A/I Shoes For Men!</h1>
-  <p class="lead">This is a simple hero unit, a simple jumbotron-style component for calling extra attention to featured content or information.</p>
-  <hr class="my-4">
-  <p>It uses utility classes for typography and spacing to space content out within the larger container.</p>
-  <a class="btn btn-primary btn-lg" href="#" role="button">Learn more</a>
-</div>
-    </form>
-    <nav class="navbar navbar-expand-lg navbar-light bg-light">
-  <a class="navbar-brand" href="#">Navbar</a>
-  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-    <span class="navbar-toggler-icon"></span>
-  </button>
-
-  <div class="collapse navbar-collapse" id="navbarSupportedContent">
-    <ul class="navbar-nav mr-auto">
-      <li class="nav-item active">
-        <a class="nav-link" href="Welcome.aspx">Home <span class="sr-only">(current)</span></a>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link" href="Mens.aspx">Mens</a>
-      </li>
-        <li class="nav-item">
-        <a class="nav-link" href="About.aspx">About Us</a>
-      </li>
-        <li class="nav-item">
-        <a class="nav-link" href="Checkout.aspx">Checkout</a>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Sign in</a>
-      </li>
-    </ul>
+       <div class="navigation">
+           <h3 style="color:black"> Menu </h3>
+           <ul>
+               <li><a style="color:black" href="Welcome.aspx"> Home Page (current)</a></li>
+               <li><a style="color:black"  href="Checkout.aspx"> Check Out</a></li>
+               <li><a style="color:black"  href="Men's.aspx"> Mens Page</a></li>
+               <li><a style="color:black" href="Contact.aspx"> Contact Page</a></li>
+                <li><a style="color:black" href="About.aspx"> About Us</a></li>
+           </ul>
+       </div>
+  
+   <body>
+       <div> 
+           <br />
+           <br />
+     <h4>A shoe for anybody and everybody.</h4>
+    <p>A/I Shoes For Men is a specialty shoe store based out of Norman, Oklahoma. We serve as a shoe design outlet while also trying to serve our community. Each shoe we sell we donate a pair of shoes to the local Boys and Girls Club. 
+        As two Oklahoman's came together to build a website they built a family instead. Created April, 2019 in the small town of Norman, Oklahoma. The two owners; Ian Harrison and Abraham Arredondo believe in family first and style second. 
+        Though it would seem like the opposite with their fly kicks.
+    </p>
+         </div>
     
-      
-      <form class="form-inline my-2 my-lg-0">
-      <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
-      <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
-    </form>
-  </div>
-</nav>
-</body>
-</html>
+       <div id="AboutPictures">
+        
+           <asp:Image ID="GirlsandBoysLogog" runat="server" src="yeezblk.png" Height="10%" Width="7.5%"/>
+           &nbsp
+           <asp:Image ID="Image2" runat="server" src="moderb.jfif" Height="10%" Width="7.5%" />
+       </div>
+   </body>
+    
+</asp:Content>
