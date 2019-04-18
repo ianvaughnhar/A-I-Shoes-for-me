@@ -5,10 +5,11 @@
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head runat="server">
     <title></title>
-    <h1> Welcome Gentlemen</h1>
 </head>
-      <div"id="navigation">
-           <h3 style="color:black"> Menu </h3>
+    <h1> Welcome Gentlemen</h1>
+    </html>
+      <div class="navigation">
+           <h3 style="color:black">Menu </h3>
            <ul>
                <li><a style="color:black" href="Welcome.aspx"> Home Page</a></li>
                <li><a style="color:black"  href="Photos.aspx"> Photos</a></li>
@@ -22,4 +23,4 @@
         </div>
     </form>
 </body>
-</html>
+

@@ -5,7 +5,7 @@
 
    
     <link type="text/css" rel="stylesheet" href="StyleSheet1.css" />
-    <asp:Image ImageAlign="Middle" CssClass="mainpic" ID="Image1" runat="server" src="A _ I Shoes For Men Logo.png" Height="10%" Width="10%" />
+    <asp:Image ImageAlign="Middle" CssClass="mainpic" ID="Image1" runat="server" src="Logo.png" Height="10%" Width="10%" />
 
       <div>  
         <h2>About Us </h2>
@@ -13,11 +13,11 @@
      </div>
          </header>
 
-       <div " id="navigation">
+       <div class="navigation">
            <h3 style="color:black"> Menu </h3>
            <ul>
                <li><a style="color:black" href="Welcome.aspx"> Home Page</a></li>
-               <li><a style="color:black"  href="Photos.aspx"> Photos</a></li>
+               <li><a style="color:black"  href="Checkout.aspx"> Check Out</a></li>
                <li><a style="color:black"  href="Men's.aspx"> Mens Page</a></li>
                <li><a style="color:black" href="Contact.aspx"> Contact Page</a></li>
            </ul>
