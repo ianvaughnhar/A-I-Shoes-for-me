@@ -23,6 +23,7 @@
                <li><a style="color:black"  href="Men's.aspx"> Mens Page</a></li>
                <li><a style="color:black" href="Contact.aspx"> Contact Page</a></li>
                <li><a style="color:black" href="About.aspx"> About Us</a></li>
+               <li><a style="color:black" href="Signup.aspx"> Sign Up</a></li>
            </ul>
        </div>
 
@@ -30,10 +31,14 @@
      <h4>Shopping Cart.</h4>
         <div class="inputinfobox"> 
         <asp:Label ID="Emaillbl" runat="server" Text="Email:"></asp:Label>
-        <asp:TextBox ID="emailtxt" runat="server"></asp:TextBox>
+            &nbsp &nbsp &nbsp &nbsp 
+
+        <asp:TextBox ID="emailtxt" runat="server" Width="174px"></asp:TextBox>
             <br />
         <asp:Label ID="Passlbl" runat="server" Text="Password:"></asp:Label>
-        <asp:TextBox ID="Passtxt" runat="server"></asp:TextBox>
+        <asp:TextBox ID="Passtxt" runat="server" Width="176px"></asp:TextBox>
+        <br />
+            <asp:Button ID="LoginBtn" runat="server" Text="Login" />
             </div>
     </div>
 

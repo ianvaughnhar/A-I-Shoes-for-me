@@ -19,6 +19,7 @@
                <li><a style="color:black"  href="Men's.aspx"> Mens Page</a></li>
                <li><a style="color:black" href="Contact.aspx"> Contact Page (Current)</a></li>
                <li><a style="color:black" href="About.aspx"> About Us</a></li>
+               <li><a style="color:black" href="Signup.aspx"> Sign Up</a></li>
            </ul>
        </div>
 
