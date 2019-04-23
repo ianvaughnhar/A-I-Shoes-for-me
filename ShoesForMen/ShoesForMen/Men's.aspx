@@ -6,7 +6,8 @@
     <link type="text/css" rel="stylesheet" href="StyleSheet1.css" />
     <asp:image ImageAlign="Middle" CssClass="mainpic" ID="Image1" runat="server" src="Logo.png" Height="10%" Width="10%" />
   
-      <div>  
+
+      <div class="Titlebox">  
         <h2 style="color:Darkred">
         Men's Page
         </h2>
