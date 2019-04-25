@@ -38,7 +38,8 @@
         <asp:Label ID="Passlbl" runat="server" Text="Password:"></asp:Label>
         <asp:TextBox ID="Passtxt" runat="server" Width="176px"></asp:TextBox>
         <br />
-            <asp:Button ID="LoginBtn" runat="server" Text="Login" />
+            <asp:Button ID="LoginBtn" runat="server" Text="Login" OnClick="LoginBtn_Click" />
+            <asp:Label ID="Label1" runat="server" Text="Label"></asp:Label>
             </div>
     </div>
           <asp:SqlDataSource ID="sample" runat ="server" ConnectionString="<%$ ConnectionStrings:AI_ShoesConnectionString %>" OnSelecting="sample_Selecting" SelectCommand="SELECT * FROM [Table]" ></asp:SqlDataSource>

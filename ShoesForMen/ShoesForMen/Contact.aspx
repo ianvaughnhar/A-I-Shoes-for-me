@@ -25,10 +25,12 @@
        </div>
 
      <address>
-        336 North Elm Ave<br />
-        Norman, OK 73069<br />
+       <a href="https://goo.gl/maps/USdbvXJy4oKuMy7M7"> Address: 660 Parrington Oval, Norman, OK 73019 </a>
+          <br />
+     <br />
         <abbr title="Phone">P:</abbr>
-        918.720.8208
+         <a href="tel:9187208208">918.720.8208 </a>
+        
     </address>
 
 
