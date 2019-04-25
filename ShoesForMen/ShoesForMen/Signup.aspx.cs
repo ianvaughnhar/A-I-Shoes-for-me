@@ -32,9 +32,12 @@ namespace ShoesForMen
                 insertcommand.Parameters.AddWithValue("@Password", PassTxt.Text);
                 insertcommand.ExecuteNonQuery();
                 myconnection.Close();
-            }
 
+            }
+            MessageBox.Show("Here is my message");
         }
+
+    }
         
 
     }
