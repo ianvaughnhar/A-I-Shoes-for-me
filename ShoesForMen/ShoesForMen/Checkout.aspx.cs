@@ -13,5 +13,10 @@ namespace ShoesForMen
         {
 
         }
+
+        protected void sample_Selecting(object sender, SqlDataSourceSelectingEventArgs e)
+        {
+
+        }
     }
 }
