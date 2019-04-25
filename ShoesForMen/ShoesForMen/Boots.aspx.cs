@@ -7,16 +7,11 @@ using System.Web.UI.WebControls;
 
 namespace ShoesForMen
 {
-    public partial class Men_s : System.Web.UI.Page
+    public partial class Boots : System.Web.UI.Page
     {
         protected void Page_Load(object sender, EventArgs e)
         {
-            
-        }
 
-        protected void bootbtn_Click(object sender, EventArgs e)
-        {
-              
         }
     }
 }

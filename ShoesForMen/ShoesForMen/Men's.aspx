@@ -22,9 +22,7 @@
                <li><a style="color:black" href="Welcome.aspx"> Home Page</a></li>
                <li><a style="color:black"  href="Checkout.aspx"> Check Out</a></li>
                <li><a style="color:black"  href="Men's.aspx"> Mens Page (current)</a></li>
-               <li><a style="color:black" href="Contact.aspx"> Contact Page</a></li>
-               <li><a style="color:black" href="About.aspx"> About Us</a></li>
-               <li><a style="color:black" href="Signup.aspx"> Sign Up</a></li>
+        
            </ul>
        </div>
 
@@ -35,7 +33,9 @@
         </p>
     </div>
      
-          <asp:Button ID="bootbtn" runat="server" Text="Boots" />  &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp  &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp 
+          <asp:Button ID="bootbtn" runat="server" Text="Boots" OnClick="bootbtn_Click" /> 
+               <li><a style="color:black" href="Boots.aspx"> Home Page (current)</a></li>
+          &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp  &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp 
           &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp  &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp
           <asp:Button ID="sneakerbtn" runat="server" Text="Sneakers" />  &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp
           &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp  &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp  &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp
