@@ -34,6 +34,7 @@ namespace ShoesForMen
                 myconnection.Close();
 
 
+                Response.Redirect("Welcome.aspx");
 
 
             }
