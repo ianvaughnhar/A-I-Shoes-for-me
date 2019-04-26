@@ -48,7 +48,7 @@
         </div>
 
 
-        <asp:Button ID="Button1" runat="server" OnClick="Button1_Click" Text="Create Account" />
+        <asp:Button ID="Button1" runat="server" visible="true" OnClick="Button1_Click" Text="Create Account" />
 
 
 
