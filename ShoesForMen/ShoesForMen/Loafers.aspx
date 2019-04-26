@@ -1,4 +1,4 @@
-﻿<%@ Page Language="C#" AutoEventWireup="true" CodeBehind="Boots.aspx.cs" Inherits="ShoesForMen.Boots" %>
+﻿<%@ Page Language="C#" AutoEventWireup="true" CodeBehind="Loafers.aspx.cs" Inherits="ShoesForMen.Loafers" %>
 
 <!DOCTYPE html>
 <html lang="en">
@@ -42,43 +42,16 @@
     <span class="glyphicon glyphicon-chevron-right"></span>
     <span class="sr-only">Next</span>
   </a>
-  
-</div>
-  </div>
-  <style>
 
-  .horizontal {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-    overflow: hidden;
-    background-color: #333;
-}
-.horizontal2 {
-  float: left;
-}
-
-li a {
-  display: block;
-  color: white;
-  text-align: center;
-  padding: 14px 16px;
-  text-decoration: none;
-}
-
-li a:hover {
-  background-color: #111;
-}
-
-          </style>
-    <h1>Boots</h1>
-    <h3>These boots were made for walking.</h3>
+    <h1>Loafers</h1>
+    <h3>Look good. Feel Good.</h3>
 
     <form id="form1" runat="server">
         <div>
-            <div class="navigation">
+            
+       <div class="navigation">
            <h3 style="color:black"> Menu </h3>
-           <ul class="horizontal">
+           <ul>
                <li><a style="color:black" href="Welcome.aspx"> Home Page (current)</a></li>
                <li><a style="color:black"  href="Checkout.aspx"> Check Out</a></li>
                <li><a style="color:black"  href="Men's.aspx"> Mens Page</a></li>

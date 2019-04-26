@@ -30,24 +30,18 @@
        </div>
 
     <div> 
-   
-     <h4 style="text-align:center">The shoe. A mans best friend.</h4>
+     <h4 style="text-align:center">The shoe. A man's best friend.</h4>
         <p style="text-align:center"> We specialize in the fashion of the mens shoe. You need it, we got it.Take a look through our specialty shoe store and let us know if we can help.
         </p>
     </div>
-     
-         <a href="boots.aspx"> <asp:Button ID="bootbtn" runat="server" Text="Boots" /></a> &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp  &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp 
+     <div class="shoestyles">
+         <asp:Button ID="bootbtn" runat="server" Text="Boots" OnClick="bootbtn_Click"/> &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp  &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp 
           &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp  &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp
-          <asp:Button ID="sneakerbtn" runat="server" Text="Sneakers" />  &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp
+          <asp:Button ID="sneakerbtn" runat="server" Text="Sneakers" OnClick="sneakerbtn_Click" />  &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp
           &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp  &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp  &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp
-          <asp:Button ID="loaferbtn" runat="server" Text="Loafers" />
+          <asp:Button ID="loaferbtn" runat="server" Text="Loafers" OnClick="loaferbtn_Click" />
+    </div>
 
-       <div id="AboutPictures">
-        
-           <asp:Image ID="YeezyBlack" runat="server" src="yeezblk.jpg" Height="10%" Width="7.5%"/>
-           &nbsp
-           <asp:Image ID="Image2" runat="server" src="boost.jfif" Height="10%" Width="7.5%" />
-       </div>
    </body>
     
 </asp:Content>
