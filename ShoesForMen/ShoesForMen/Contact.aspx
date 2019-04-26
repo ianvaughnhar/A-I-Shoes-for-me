@@ -1,15 +1,16 @@
 ﻿<%@ Page Title="Contact" Language="C#" MasterPageFile="~/Site.Master" AutoEventWireup="true" CodeBehind="Contact.aspx.cs" Inherits="ShoesForMen.Contact" %>
 
-<asp:Content ID="BodyContent" ContentPlaceHolderID="MainContent" runat="server">
-    <h1><%: Title %>.</h1>
-    <h3> Get a hold of us.</h3>
 
-    <address>
-        336 North Elm Ave<br />
-        Norman, OK 73069<br />
-        <abbr title="Phone">P:</abbr>
-        918.720.8208
-    </address>
+<asp:Content ID="BodyContent" ContentPlaceHolderID="MainContent" runat="server">
+    <header>
+
+    <link type="text/css" rel="stylesheet" href="StyleSheet1.css" />
+    <asp:image ImageAlign="Middle" CssClass="mainpic" ID="Image1" runat="server" src="Logo.png" Height="10%" Width="10%" />
+  </header>
+    <h1><%: Title %></h1>
+    <h1> Get a hold of us.</h1>
+
+   
     
      <div class="navigation">
            <h3 style="color:black"> Menu </h3>
@@ -22,6 +23,16 @@
                <li><a style="color:black" href="Signup.aspx"> Sign Up</a></li>
            </ul>
        </div>
+
+     <address>
+       <a href="https://goo.gl/maps/USdbvXJy4oKuMy7M7"> Address: 660 Parrington Oval, Norman, OK 73019 </a>
+          <br />
+     <br />
+        <abbr title="Phone">P:</abbr>
+         <a href="tel:9187208208">918.720.8208 </a>
+        
+    </address>
+
 
     <address>
         <strong>Support:</strong>   <a href="mailto:Support@example.com">A/I-Support@example.com</a><br />

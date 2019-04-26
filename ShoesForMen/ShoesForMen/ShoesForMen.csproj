@@ -110,6 +110,7 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Content Include="Boots.aspx" />
     <Content Include="Logo.png" />
     <Content Include="About.aspx" />
     <Content Include="Checkout.aspx" />
@@ -203,6 +204,13 @@
       <DependentUpon>About.aspx</DependentUpon>
     </Compile>
     <Compile Include="App_Start\RouteConfig.cs" />
+    <Compile Include="Boots.aspx.cs">
+      <DependentUpon>Boots.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Boots.aspx.designer.cs">
+      <DependentUpon>Boots.aspx</DependentUpon>
+    </Compile>
     <Compile Include="Checkout.aspx.cs">
       <DependentUpon>Checkout.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
@@ -273,6 +281,7 @@
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
+    <Folder Include="myconnection\" />
   </ItemGroup>
   <ItemGroup>
     <None Include="packages.config" />
