@@ -110,7 +110,11 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Content Include="boot1.jpg" />
+    <Content Include="boot2.jpg" />
+    <Content Include="boot3.jpg" />
     <Content Include="Boots.aspx" />
+    <Content Include="Loafers.aspx" />
     <Content Include="Logo.png" />
     <Content Include="About.aspx" />
     <Content Include="Checkout.aspx" />
@@ -128,7 +132,6 @@
     <Content Include="Global.asax" />
     <Content Include="Men%27s.aspx" />
     <Content Include="moderb.jfif" />
-    <Content Include="Photos.aspx" />
     <Content Include="Scripts\bootstrap.bundle.js" />
     <Content Include="Scripts\bootstrap.bundle.min.js" />
     <Content Include="Scripts\bootstrap.js" />
@@ -156,6 +159,7 @@
     <Content Include="Scripts\umd\popper.js" />
     <Content Include="Scripts\umd\popper.min.js" />
     <Content Include="Signup.aspx" />
+    <Content Include="sneakers.aspx" />
     <Content Include="StyleSheet1.css" />
     <Content Include="Welcome.aspx" />
     <Content Include="Scripts\esm\popper.min.js.map" />
@@ -238,19 +242,19 @@
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
+    <Compile Include="Loafers.aspx.cs">
+      <DependentUpon>Loafers.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Loafers.aspx.designer.cs">
+      <DependentUpon>Loafers.aspx</DependentUpon>
+    </Compile>
     <Compile Include="Men%27s.aspx.cs">
       <DependentUpon>Men%27s.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
     <Compile Include="Men%27s.aspx.designer.cs">
       <DependentUpon>Men%27s.aspx</DependentUpon>
-    </Compile>
-    <Compile Include="Photos.aspx.cs">
-      <DependentUpon>Photos.aspx</DependentUpon>
-      <SubType>ASPXCodeBehind</SubType>
-    </Compile>
-    <Compile Include="Photos.aspx.designer.cs">
-      <DependentUpon>Photos.aspx</DependentUpon>
     </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Signup.aspx.cs">
@@ -273,6 +277,13 @@
     </Compile>
     <Compile Include="Site.Mobile.Master.designer.cs">
       <DependentUpon>Site.Mobile.Master</DependentUpon>
+    </Compile>
+    <Compile Include="sneakers.aspx.cs">
+      <DependentUpon>sneakers.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="sneakers.aspx.designer.cs">
+      <DependentUpon>sneakers.aspx</DependentUpon>
     </Compile>
     <Compile Include="ViewSwitcher.ascx.cs">
       <DependentUpon>ViewSwitcher.ascx</DependentUpon>

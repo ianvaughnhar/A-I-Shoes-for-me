@@ -7,7 +7,7 @@ using System.Web.UI.WebControls;
 
 namespace ShoesForMen
 {
-    public partial class Photos : System.Web.UI.Page
+    public partial class sneakers : System.Web.UI.Page
     {
         protected void Page_Load(object sender, EventArgs e)
         {
