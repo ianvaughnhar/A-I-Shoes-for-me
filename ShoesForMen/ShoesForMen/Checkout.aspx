@@ -38,10 +38,10 @@
         <asp:Label ID="Passlbl" runat="server" Text="Password:"></asp:Label>
         <asp:TextBox ID="Passtxt" runat="server" Width="176px"></asp:TextBox>
         <br />
-            <asp:Button ID="LoginBtn" runat="server" Text="Login" />
+            <asp:Button ID="LoginBtn" runat="server" Text="Login" OnClick="LoginBtn_Click" />
             </div>
     </div>
-
+     <asp:SqlDataSource ID="Sample" runat="server" OnSelecting="Sample_Selecting"></asp:SqlDataSource>
    </body>
     
 </asp:Content>
