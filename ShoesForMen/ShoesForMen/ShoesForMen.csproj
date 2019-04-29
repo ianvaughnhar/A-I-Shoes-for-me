@@ -114,6 +114,7 @@
     <Content Include="boot2.jpg" />
     <Content Include="boot3.jpg" />
     <Content Include="Boots.aspx" />
+    <Content Include="CheckOut Page userinfo.aspx" />
     <Content Include="Loafers.aspx" />
     <Content Include="Logo.png" />
     <Content Include="About.aspx" />
@@ -217,6 +218,13 @@
     </Compile>
     <Compile Include="Boots.aspx.designer.cs">
       <DependentUpon>Boots.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="CheckOut Page userinfo.aspx.cs">
+      <DependentUpon>CheckOut Page userinfo.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="CheckOut Page userinfo.aspx.designer.cs">
+      <DependentUpon>CheckOut Page userinfo.aspx</DependentUpon>
     </Compile>
     <Compile Include="Checkout.aspx.cs">
       <DependentUpon>Checkout.aspx</DependentUpon>

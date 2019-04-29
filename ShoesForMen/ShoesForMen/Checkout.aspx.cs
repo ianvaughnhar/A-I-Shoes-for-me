@@ -36,7 +36,7 @@ namespace ShoesForMen
             SqlConnection connection = new SqlConnection(connect);
                 
             connection.Open();
-            SqlCommand checker = new SqlCommand("SELECT COUNT (*) from Table WHERE email=@Email AND Password = @Password", connection);
+            SqlCommand checker = new SqlCommand("SELECT COUNT (*) from Table WHERE Email=@Email AND Password = @Password", connection);
             checker.Parameters.Add(new SqlParameter("@Email", emailtxt.Text));
             checker.Parameters.Add(new SqlParameter("@Password", Passtxt.Text));
             var count = Convert.ToInt32(checker.ExecuteScalar());
