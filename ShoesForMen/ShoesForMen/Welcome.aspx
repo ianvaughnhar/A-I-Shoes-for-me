@@ -2,6 +2,7 @@
   
 <asp:Content ID="BodyContent" ContentPlaceHolderID="MainContent" runat="server" >
     <header>
+      
 
     <link type="text/css" rel="stylesheet" href="StyleSheet1.css" />
     <asp:image ImageAlign="Middle" CssClass="mainpic" ID="Image1" runat="server" src="Logo.png" Height="10%" Width="10%" />
@@ -10,6 +11,10 @@
         <h2 style="color:Darkred">
          Welcome to A/I Shoes For Men!
         </h2>
+
+
+
+
           <br /> 
       </div>
          </header>

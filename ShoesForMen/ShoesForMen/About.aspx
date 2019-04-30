@@ -8,7 +8,7 @@
     <asp:Image ImageAlign="Middle" CssClass="mainpic" ID="Image1" runat="server" src="Logo.png" Height="10%" Width="10%" />
 
       <div>  
-        <h2>About Us </h2>
+        <h2 style="color:darkred">About Us </h2>
           <br /> 
      </div>
          </header>

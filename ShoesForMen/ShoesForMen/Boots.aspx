@@ -42,44 +42,40 @@
     <span class="glyphicon glyphicon-chevron-right"></span>
     <span class="sr-only">Next</span>
   </a>
-  
+  <h1>Boots</h1>
+    <h3>These boots were made for walking.</h3>
 </div>
   </div>
-  <style>
 
+  <style>
   .horizontal {
     list-style-type: none;
     margin: 0;
     padding: 0;
     overflow: hidden;
-    background-color: #333;
-}
-.horizontal2 {
-  float: left;
-}
+    background-color: #333;}
 
-      li a {
-          display: block;
-          color: white;
-          C: \Users\abrah\source\repos\A-I-Shoes-for-me4\ShoesForMen\ShoesForMen\GandB.png text-align: center;
-          padding: 14px 16px;
-          text-decoration: none;
-      }
+  .horizontal2 {
+  float: left;}
 
-li a:hover {
-  background-color: #111;
-}
+  li a {
+    display: block;
+    color: white;
+    C: \Users\abrah\source\repos\A-I-Shoes-for-me4\ShoesForMen\ShoesForMen\GandB.png text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;}
 
-          </style>
-    <h1>Boots</h1>
-    <h3>These boots were made for walking.</h3>
+  li a:hover {
+  background-color: #111;}
 
+  </style>
+  
     <form id="form1" runat="server">
         <div>
             <div class="navigation">
            <h3 style="color:black"> Menu </h3>
            <ul class="horizontal">
-               <li><a style="color:black" href="Welcome.aspx"> Home Page (current)</a></li>
+               <li><a style="color:black" href="Welcome.aspx"> Home Page</a></li>
                <li><a style="color:black"  href="Checkout.aspx"> Check Out</a></li>
                <li><a style="color:black"  href="Men's.aspx"> Mens Page</a></li>
                <li><a style="color:black" href="Signup.aspx"> Sign Up</a></li>

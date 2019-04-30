@@ -45,17 +45,21 @@ namespace ShoesForMen
             {
                 Checkout wen = new Checkout ();
                 lblmessage.Text = "U inn";
+                    Response.Redirect("CheckOut Page userinfo.aspx");
             }
             else
             {
                   lblmessage.Text= "Incorrect password or username.";
-            }
+                    Response.Redirect("CheckOut Page userinfo.aspx");
+                }
             
                  }
                      catch
                      {
                          lblmessage.Text="Incorrect password or username.";
-    }
+                Response.Redirect("CheckOut Page userinfo.aspx");
+
+            }
 
 
 }
