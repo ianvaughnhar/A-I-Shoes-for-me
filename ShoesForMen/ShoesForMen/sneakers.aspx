@@ -80,10 +80,10 @@ li a:hover {
        <div class="navigation">
            <h3 style="color:black"> Menu </h3>
            <ul class="horizontal">
-               <li><a style="color:black" href="Welcome.aspx"> Home Page</a></li>
-               <li><a style="color:black"  href="Checkout.aspx"> Check Out</a></li>
-               <li><a style="color:black"  href="Men's.aspx"> Mens Page</a></li>
-               <li><a style="color:black" href="Signup.aspx"> Sign Up</a></li>
+              <li><a style="color:white" href="Welcome.aspx"> Home Page</a></li>
+               <li><a style="color:white"  href="Checkout.aspx"> Check Out</a></li>
+               <li><a style="color:white"  href="Men's.aspx"> Mens Page</a></li>
+               <li><a style="color:white" href="Signup.aspx"> Sign Up</a></li>
            </ul>
             
   </div>
