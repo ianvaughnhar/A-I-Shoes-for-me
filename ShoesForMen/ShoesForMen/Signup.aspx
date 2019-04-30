@@ -4,6 +4,20 @@
 <asp:Content ID="BodyContent" ContentPlaceHolderID="MainContent" runat="server" >
     <header>
 
+        <style>
+              .button1 {border-radius: 12px;}
+              .button{ 
+ background-color: darkred; /* Green */
+  border: none;
+  color: white;
+  padding: 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;}
+          </style>
 
 
      <link type="text/css" rel="stylesheet" href="StyleSheet1.css" />
@@ -26,7 +40,8 @@
            </ul>
        </div>
         
-        
+        <br />
+        <br />
         
         <div>
             <asp:Label ID="Emaillbl" runat="server" Text="Email:"></asp:Label>
@@ -38,9 +53,10 @@
             <asp:Label ID="Passlbl" runat="server" Text="Password:"></asp:Label>
             <asp:TextBox ID="PassTxt" runat="server"></asp:TextBox>
 
+            <br />
 
           
         </div>
-        <asp:Button ID="Button1" runat="server" visible="true" OnClick="Button1_Click" Text="Create Account" />
+        <asp:Button class="button button1" ID="Button1" runat="server" visible="true" OnClick="Button1_Click" Text="Create Account" />
 </body>
 </asp:Content>

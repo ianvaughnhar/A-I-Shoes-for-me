@@ -32,13 +32,27 @@
         <div class="inputinfobox"> 
         <asp:Label ID="Emaillbl" runat="server" Text="Email:"></asp:Label>
             &nbsp &nbsp &nbsp &nbsp 
+            <style>
+              .button1 {border-radius: 12px;}
+              .button{ 
+ background-color: darkred; /* Green */
+  border: none;
+  color: white;
+  padding: 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;}
+          </style>
 
         <asp:TextBox ID="emailtxt" runat="server" Width="174px"></asp:TextBox>
             <br />
         <asp:Label ID="Passlbl" runat="server" Text="Password:"></asp:Label>
         <asp:TextBox ID="Passtxt" runat="server" Width="176px"></asp:TextBox>
         <br />
-            <asp:Button ID="LoginBtn" runat="server" Text="Login" OnClick="LoginBtn_Click" />
+            <asp:Button class="button button1" ID="LoginBtn" runat="server" Text="Login" OnClick="LoginBtn_Click" />
             <br />
             <asp:Label ID="lblmessage" runat="server" Text=""></asp:Label>
             </div>

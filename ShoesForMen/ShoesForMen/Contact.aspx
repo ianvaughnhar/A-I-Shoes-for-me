@@ -7,8 +7,8 @@
     <link type="text/css" rel="stylesheet" href="StyleSheet1.css" />
     <asp:image ImageAlign="Middle" CssClass="mainpic" ID="Image1" runat="server" src="Logo.png" Height="10%" Width="10%" />
   </header>
-    <h1><%: Title %></h1>
-    <h1> Get a hold of us.</h1>
+    <h1 style="color:darkred"><%: Title %></h1>
+    <h3 style="color:darkred"> Get a hold of us.</h3>
 
    
     

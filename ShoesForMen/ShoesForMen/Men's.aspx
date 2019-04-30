@@ -28,6 +28,20 @@
                <li><a style="color:black" href="Signup.aspx"> Sign Up</a></li>
            </ul>
        </div>
+          <style>
+              .button1 {border-radius: 12px;}
+              .button{ 
+ background-color: darkred; /* Green */
+  border: none;
+  color: white;
+  padding: 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;}
+          </style>
 
     <div> 
      <h4 style="text-align:center">The shoe. A man's best friend.</h4>
@@ -35,11 +49,11 @@
         </p>
     </div>
      <div class="shoestyles">
-         <asp:Button ID="bootbtn" runat="server" Text="Boots" OnClick="bootbtn_Click"/> &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp  &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp 
+         <asp:Button class="button button1" ID="bootbtn" runat="server" Text="Boots" OnClick="bootbtn_Click"/> &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp  &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp 
           &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp  &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp
-          <asp:Button ID="sneakerbtn" runat="server" Text="Sneakers" OnClick="sneakerbtn_Click" />  &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp
+          <asp:Button class="button button1" ID="sneakerbtn" runat="server" Text="Sneakers" OnClick="sneakerbtn_Click" />  &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp
           &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp  &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp  &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp
-          <asp:Button ID="loaferbtn" runat="server" Text="Loafers" OnClick="loaferbtn_Click" />
+          <asp:Button class="button button1" ID="loaferbtn" runat="server" Text="Loafers" OnClick="loaferbtn_Click" />
     </div>
 
    </body>

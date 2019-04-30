@@ -176,7 +176,7 @@ span.price {
         </div>
         <label>
           
-            <asp:Button ID="btnCheckout2" runat="server" Text="Check Out" />
+            <asp:Button ID="btnCheckout2" runat="server" Text="Check Out" OnClick="btnCheckout2_Click" />
           
         </label>
         

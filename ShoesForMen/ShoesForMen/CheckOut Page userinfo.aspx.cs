@@ -13,5 +13,10 @@ namespace ShoesForMen
         {
 
         }
+
+        protected void btnCheckout2_Click(object sender, EventArgs e)
+        {
+            Response.Redirect("Welcome.aspx");
+        }
     }
 }
