@@ -31,39 +31,41 @@ namespace ShoesForMen
         public void LoginBtn_Click(object sender, EventArgs e)
         {
 
-            try {
-                string connect = Convert.ToString(myconnection);
-            SqlConnection connection = new SqlConnection(connect);
-                
-            connection.Open();
-            SqlCommand checker = new SqlCommand("SELECT COUNT (*) from Table WHERE Email=@Email AND Password = @Password", connection);
-            checker.Parameters.Add(new SqlParameter("@Email", emailtxt.Text));
-            checker.Parameters.Add(new SqlParameter("@Password", Passtxt.Text));
-            var count = Convert.ToInt32(checker.ExecuteScalar());
-            connection.Close();
-            if (count > 0)
+            try
             {
-                Checkout wen = new Checkout ();
-                lblmessage.Text = "U inn";
-                    Response.Redirect("CheckOut Page userinfo.aspx");
-            }
-            else
-            {
-                  lblmessage.Text= "Incorrect password or username.";
-                    Response.Redirect("CheckOut Page userinfo.aspx");
+                myconnection.Open();
+                SqlCommand checker = new SqlCommand("SELECT COUNT (*) FROM dbo.[Table] WHERE Email = @Email AND Password = @Password", myconnection);
+                checker.Parameters.Add(new SqlParameter("@Email", emailtxt.Text));
+                checker.Parameters.Add(new SqlParameter("@Password", Passtxt.Text));
+                checker.CommandType = System.Data.CommandType.Text;
+                var count = Convert.ToInt32(checker.ExecuteScalar());
+
+                myconnection.Dispose();
+                myconnection.Close();
+
+                if (count > 0)
+                {
+                    Checkout wen = new Checkout();
+                    lblmessage.Text = "U inn";
+                   Response.Redirect("CheckOut Page userinfo.aspx", false);
                 }
-            
-                 }
-                     catch
-                     {
-                         lblmessage.Text="Incorrect password or username.";
+                else
+                {
+                    lblmessage.Text = "Incorrect password or username.";
+                    //Response.Redirect("CheckOut Page userinfo.aspx", false);
+                }
+            }
+            catch (Exception ex)
+            {
+                lblmessage.Text = "Incorrect password or username.";
                 Response.Redirect("CheckOut Page userinfo.aspx");
 
             }
+        }
 
 
-}
+    }
 
        
     }
-    }
+    
