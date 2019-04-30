@@ -41,9 +41,8 @@
             <asp:Button ID="LoginBtn" runat="server" Text="Login" OnClick="LoginBtn_Click" />
             <asp:Label ID="Label1" runat="server" Text=""></asp:Label>
             </div>
-    </div>
+    </div>     
           <asp:SqlDataSource ID="sample" runat ="server" ConnectionString="<%$ ConnectionStrings:AI_ShoesConnectionString %>" OnSelecting="sample_Selecting" SelectCommand="SELECT * FROM [Table]" ></asp:SqlDataSource>
-
    </body>
     
 </asp:Content>
