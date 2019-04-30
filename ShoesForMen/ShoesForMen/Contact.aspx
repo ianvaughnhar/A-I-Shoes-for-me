@@ -25,9 +25,9 @@
        </div>
 
      <address>
-       <a href="https://goo.gl/maps/USdbvXJy4oKuMy7M7"> Address: 660 Parrington Oval, Norman, OK 73019 </a>
-          <br />
-     <br />
+         <abbr title="Address">Address:</abbr>
+       <a href="https://goo.gl/maps/USdbvXJy4oKuMy7M7">660 Parrington Oval, Norman, OK 73019 </a>
+      <br />
         <abbr title="Phone">P:</abbr>
          <a href="tel:9187208208">918.720.8208 </a>
         

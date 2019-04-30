@@ -3,7 +3,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <title>Bootstrap Example</title>
+  <title>Loafers</title>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
@@ -42,23 +42,49 @@
     <span class="glyphicon glyphicon-chevron-right"></span>
     <span class="sr-only">Next</span>
   </a>
+      </div>
 
     <h1>Loafers</h1>
     <h3>Look good. Feel Good.</h3>
 
-    <form id="form1" runat="server">
-        <div>
+      </body>
+
+</html>
+<style>
+     .horizontal {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+}
+     .horizontal2 {
+  float: left;
+}
+
+      li a {
+          display: block;
+          color: white;
+          C: \Users\abrah\source\repos\A-I-Shoes-for-me4\ShoesForMen\ShoesForMen\GandB.png text-align: center;
+          padding: 14px 16px;
+          text-decoration: none;
+      }
+
+li a:hover {
+  background-color: #111;
+}
+
+
+</style>
+ <div>
             
        <div class="navigation">
            <h3 style="color:black"> Menu </h3>
-           <ul>
-               <li><a style="color:black" href="Welcome.aspx"> Home Page (current)</a></li>
+           <ul class="horizontal">
+               <li><a style="color:black" href="Welcome.aspx"> Home Page </a></li>
                <li><a style="color:black"  href="Checkout.aspx"> Check Out</a></li>
                <li><a style="color:black"  href="Men's.aspx"> Mens Page</a></li>
                <li><a style="color:black" href="Signup.aspx"> Sign Up</a></li>
-           </ul>
+           </ul> 
        </div>
         </div>
-    </form>
-</body>
-</html>

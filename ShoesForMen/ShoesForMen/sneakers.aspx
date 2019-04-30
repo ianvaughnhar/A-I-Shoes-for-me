@@ -1,4 +1,5 @@
-﻿<%@ Page Language="C#" AutoEventWireup="true" CodeBehind="sneakers.aspx.cs" Inherits="ShoesForMen.sneakers" %>
+﻿<%@ Page Language="C#" AutoEventWireup="true" CodeBehind="sneakers
+    aspx.cs" Inherits="ShoesForMen.sneakers" %>
 
 <!DOCTYPE html>
 <html lang="en">
@@ -43,22 +44,49 @@
     <span class="sr-only">Next</span>
   </a>
 
-    <h1>sneakers</h1>
+    <h1>Sneakers</h1>
     <h3>Look good. Feel Good.</h3>
 
+      </div>
+          <style>
+
+  .horizontal {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+}
+.horizontal2 {
+  float: left;
+}
+
+      li a {
+          display: block;
+          color: white;
+          C: \Users\abrah\source\repos\A-I-Shoes-for-me4\ShoesForMen\ShoesForMen\GandB.png text-align: center;
+          padding: 14px 16px;
+          text-decoration: none;
+      }
+
+li a:hover {
+  background-color: #111;
+}
+
+          </style>
     <form id="form1" runat="server">
-        <div>
+        
             
        <div class="navigation">
            <h3 style="color:black"> Menu </h3>
-           <ul>
-               <li><a style="color:black" href="Welcome.aspx"> Home Page (current)</a></li>
+           <ul class="horizontal">
+               <li><a style="color:black" href="Welcome.aspx"> Home Page</a></li>
                <li><a style="color:black"  href="Checkout.aspx"> Check Out</a></li>
                <li><a style="color:black"  href="Men's.aspx"> Mens Page</a></li>
                <li><a style="color:black" href="Signup.aspx"> Sign Up</a></li>
            </ul>
-       </div>
-        </div>
+            
+  </div>
     </form>
 </body>
 </html>

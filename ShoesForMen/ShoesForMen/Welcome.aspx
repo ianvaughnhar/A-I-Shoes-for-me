@@ -2,31 +2,7 @@
   
 <asp:Content ID="BodyContent" ContentPlaceHolderID="MainContent" runat="server" >
     <header>
-         <style>
-
-  .horizontal {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-    overflow: hidden;
-    background-color: #333;
-}
-.horizontal2 {
-  float: left;
-}
-
-li a {
-  display: block;
-  color: white;
-  text-align: center;
-  padding: 14px 16px;
-  text-decoration: none;
-}
-
-li a:hover {
-  background-color: #111;
-}
-      </style>
+      
 
     <link type="text/css" rel="stylesheet" href="StyleSheet1.css" />
     <asp:image ImageAlign="Middle" CssClass="mainpic" ID="Image1" runat="server" src="Logo.png" Height="10%" Width="10%" />
@@ -35,6 +11,10 @@ li a:hover {
         <h2 style="color:Darkred">
          Welcome to A/I Shoes For Men!
         </h2>
+
+
+
+
           <br /> 
       </div>
          </header>
