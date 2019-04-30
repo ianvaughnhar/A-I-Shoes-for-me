@@ -22,15 +22,15 @@
   <!-- Wrapper for slides -->
   <div class="carousel-inner">
     <div class="item active">
-      <img src="boot1.jpg" alt="1460 Pascal Virginia">
+      <img src="loafers.jpg" alt="1460 Pascal Virginia">
     </div>
 
     <div class="item">
-      <img src="boot2.jpg" alt="Waterproof Timbs">
+      <img src="loafers1.jpg" alt="Waterproof Timbs">
     </div>
 
     <div class="item">
-      <img src="boot3.jpg" alt="Chelsea Boot">
+      <img src="loafers2.jpg" alt="Chelsea Boot">
     </div>
 
         <!-- Left and right controls -->
